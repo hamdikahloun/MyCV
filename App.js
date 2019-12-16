@@ -46,4 +46,4 @@ const styles = StyleSheet.create({
   },
 });
 
-App = codePush(codePushOptions)(App);
+App = codePush(App);
