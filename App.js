@@ -6,6 +6,7 @@
  * @flow
  */
 import codePush from 'react-native-code-push';
+let codePushOptions = {checkFrequency: codePush.CheckFrequency.ON_APP_RESUME};
 import React from 'react';
 import {
   SafeAreaView,
@@ -45,4 +46,4 @@ const styles = StyleSheet.create({
   },
 });
 
-App = codePush(App);
+App = codePush(codePushOptions)(App);
