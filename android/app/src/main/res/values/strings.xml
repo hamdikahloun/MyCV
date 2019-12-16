@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">MyCV</string>
+	<string moduleConfig="true" name="CodePushDeploymentKey">tBGMda9a3ZzBt_G9__9jjInCg04O97o9AuysK</string>
 </resources>
