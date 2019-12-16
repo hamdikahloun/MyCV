@@ -45,5 +45,5 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
 });
+App = codePush(codePushOptions)(App);
 
-App = codePush(App);
