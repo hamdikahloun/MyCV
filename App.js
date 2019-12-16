@@ -23,7 +23,13 @@ export default class App extends React.Component {
         <StatusBar barStyle="dark-content" backgroundColor="white" />
         <SafeAreaView>
           <View>
-            <Text>Hamdi Kahloun</Text>
+            <Text
+              style={{
+                fontSize: 24,
+                fontWeight: '600',
+              }}>
+              Hamdi Kahloun
+            </Text>
           </View>
         </SafeAreaView>
       </View>
