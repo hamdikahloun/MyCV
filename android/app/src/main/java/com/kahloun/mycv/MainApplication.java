@@ -1,4 +1,4 @@
-package com.mycv;
+package com.kahloun.mycv;
 
 import android.app.Application;
 import android.content.Context;
